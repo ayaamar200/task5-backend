@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/sun.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-title {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 10%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    
+}
+
+.home-title p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.header1 {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0) ;
+    /* opacity : 0.7; */
+}
+.header1 a {
+    display: inline-block ;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px  50px;
+    padding-left: 50px;
+    color: #fffdf9;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border:1px solid orange;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #000000;
+    margin-top: 50px;
+
+}
+
+.weather{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+    background-color: #000000;
+    color: #fff;
+}
+
+#form1 #address {
+    width: 250px;
+    height: 30px;
+    outline:none;
+    border:solid #e97100 1px;
+
+}
+
+#form1 button{
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #e97100;
+    cursor: pointer;
+    border: none;
+}
